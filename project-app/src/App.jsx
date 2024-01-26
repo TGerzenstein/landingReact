@@ -1,10 +1,10 @@
 import './App.css';
-import Section from './components/section/Section';
-import NavBar from './components/nav/NavBar';
-import HeroSection from './components/heroSection/HeroSection';
+import Section from './components/Section/Section';
+import NavBar from './components/NavBar/NavBar';
+import HeroSection from './components/HeroSection/HeroSection';
 import image from './assets/image.png';
-import List from './components/list/list';
-
+import List from './components/List/List';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -36,6 +36,7 @@ function App() {
                subheading="What makes a homepage different from a landing page? "
                content="More links. On a typical homepage, you can find at least 10 links. There's often a navigational menu at the top, links in the footer, and many in the page’s content. On a well-optimized landing page, though, you'll usually find fewer links, and sometimes only one—the link that allows your users to convert."
       ></Section>
+      <Footer></Footer>
     </div>
   );
 };

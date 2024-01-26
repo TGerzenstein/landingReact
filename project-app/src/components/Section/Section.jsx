@@ -1,5 +1,5 @@
 import './Section.css';
-import Button from '../buttons/Button';
+import Button from '../Button/Button';
 
 export default function Section({title, subheading, content }) {
     return (

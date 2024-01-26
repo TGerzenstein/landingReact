@@ -1,0 +1,40 @@
+
+.container-footer {
+    width: 100%;
+    margin: 0rem;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.box {
+    padding: 15px 10px;
+}
+
+.icons-social-media {
+    width: 50%;
+}
+
+.icons-social-media a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #171923;
+    border-radius: 30%;
+    transition: all 0.2s ease-in;
+    background-color: #171923;
+}
+
+.icons-social-media .test {
+    color: white;
+    font-size: 1rem;
+    transition: all 0.2s ease-in;
+}
+

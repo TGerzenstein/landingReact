@@ -12,13 +12,13 @@ export default function Footer(){
         </ul>
         <div className="icons-social-media d-flex flex-wrap justify-content-center">
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <i className="test bi bi-twitter"></i>
+            <i className="bi bi-twitter"></i>
           </a>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <i className="test bi bi-github"></i>
+            <i className="bi bi-github"></i>
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <i className="test bi bi-facebook"></i>
+            <i className="bi bi-facebook"></i>
           </a>
         </div>
       </div>

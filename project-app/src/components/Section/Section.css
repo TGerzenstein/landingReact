@@ -14,3 +14,22 @@ h2 {
 h3 {
    color: grey;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    
+    .container-section {
+        width: auto;
+        margin: 0.20rem 1rem;
+    }
+
+    h2 {
+       font-size: 16px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }     
+  
+}

@@ -21,3 +21,29 @@
 img {
     border-radius: 8px;
 }
+
+@media screen and (max-width: 576px) {
+
+        .hero-section {
+            width: auto;
+        }
+
+        .hero-title {
+            text-align: center;
+            padding-bottom: 1rem 0rem;
+            font-weight: 600;
+            font-size: 18px;
+            width: auto;
+        }
+
+        .hero-text {
+            padding: 2rem 0rem;
+            width: 85%; 
+            font-size: 16px;
+        }
+
+        img {
+            border-radius: 8px;
+            width: 400px;
+        }
+}
